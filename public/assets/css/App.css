@@ -1,0 +1,80 @@
+body{
+    animation: fade;
+    animation-duration: .2s;
+ }
+
+ @keyframes fade
+{
+   from{
+      opacity: 0;
+      /* transform: scale(0.9); */
+   }
+   to{
+      opacity: 1;
+      /* transform: scale(1); */
+   }
+}
+
+
+ .form-control-lg, .form-select-lg{
+    font-size: 1.10rem;
+ }
+
+
+
+ /* Definição da altura e largua */
+
+
+  .icone{
+     margin-top: .8rem;
+  }
+
+
+
+
+ .text-invisible{
+     display: none;
+ }
+
+ .notifications{
+     font-size: 11px;
+ }
+
+ .cursor-no-pointer{
+     cursor: default;
+ }
+
+ .titleTop h4{
+     text-align: center;
+ }
+
+
+
+  .text-justify{
+      text-align: justify !important;
+  }
+
+.table-body-hover :hover{
+background-color: #ccc;
+}
+
+.table-dark:hover{
+    background-color: #5a5c69!important;
+}
+
+.fa-file-pdf{
+    font-size: 19pt;
+
+}
+
+.fa-download{
+    font-size: 17px;
+}
+
+.img-rounded{
+    border-radius: 1px;
+  }
+
+
+
+

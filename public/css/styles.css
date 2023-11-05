@@ -1,0 +1,126 @@
+/* Animação ao recarregar a página cria uma animação de Fade */
+body{
+   animation: fade;
+   animation-duration: 1s;
+}
+
+.form-control-lg, .form-select-lg{
+   font-size: 1.10rem;
+}
+
+@keyframes fade
+{
+   from{
+      opacity: 0;
+      /* transform: scale(0.9); */
+   }
+   to{
+      opacity: 1;
+      /* transform: scale(1); */
+   }
+}
+
+.servicos span
+{
+   margin-top: 8px;
+}
+
+/* Definição da altura e largua */
+#video
+   {
+      border: 2px solid orangered;
+      border-radius: 4px;
+      width:23.5rem;
+      height:13.5rem;
+
+   }
+
+
+.whatsapp-box
+{
+    position: fixed;
+    height: 65px;
+    width: 65px;
+    bottom: 35px;
+    right: 50px;
+    background-color: #25d365;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 38px;
+    z-index: 1000;
+    border: none;
+
+}
+
+.whatsapp-box i{
+    color: #fff;
+}
+
+
+
+ .icone{
+    margin-top: .8rem;
+ }
+
+ #video-exemplo
+ {
+    margin-top: 4rem;
+
+ }
+
+ /* .video
+ {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    width: 23.4rem;
+    height: 13.8rem;
+ } */
+
+
+.text-invisible{
+    display: none;
+}
+
+
+.cursor-no-pointer{
+    cursor: default;
+}
+
+.logo p{
+ margin-top: -.4rem;
+font-size: 14px;
+font-weight: 400;
+}
+
+.text-justify{
+    text-align:justify;
+}
+
+.text-orange{
+    color: orangered;
+}
+
+.timeFoundation{
+    font-size: 20pt;
+}
+
+@media(max-width:457px){
+    .textWhoAreWe{
+        letter-spacing: -1px;
+    }
+
+    .timeFoundation{
+        font-size: 20pt;
+    }
+}
+
+#text-alert{
+    font-weight: 500 !important;
+    font-size: 15px;
+}
+
+.bg-default{
+    background-color: #091841;
+}
+
+
